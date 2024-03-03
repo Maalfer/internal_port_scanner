@@ -4,17 +4,27 @@
 
 Escaner de puertos usando scapy, multithrearing y multiprocessing.
 
-modulos necesarios:
+
+Autores/contribuidores
+
+| perfil | enlaces |
+| :----: | :----: |
+| ![https://github.com/Maalfer](https://avatars.githubusercontent.com/u/96432001?s=48&v=4) | [Git hub Maalfer](https://github.com/Maalfer)|
+| ![https://github.com/desmonHak](https://avatars.githubusercontent.com/u/61366533?s=48&v=4) | [Git hub desmonHak](https://github.com/desmonHak) |
+
+----
+
+### modulos necesarios:
 ```python
 concurrent, colorama, multiprocessing, argparse, socket, scapy, sys, tqdm              
 ```
 
-instalacion de modulos necesarios:
+### instalacion de modulos necesarios:
 ```shell
 pip install -r requirements.txt
 ```
 
-Uso:
+### Uso:
 ```shell
 C:\Users\Desmon0xFF\Desktop\internal_port_scanner>python internal_port_scanner.py
 usage: internal_port_scanner.py [-h] [-a ADDR] [-p PORTS] [-up UTILIZATION_PERCENTAGE] [-t THREAD_CORES]
